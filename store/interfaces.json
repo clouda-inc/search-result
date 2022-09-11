@@ -156,8 +156,9 @@
   },
   "filter-navigator.v3": {
     "component": "FilterNavigatorFlexible",
-    "allowed": ["sidebar-close-button"]
+    "allowed": ["sidebar-close-button", "custom-filters"]
   },
+  "custom-filters": {},
   "total-products.v2": {
     "component": "TotalProductsFlexible",
     "content": {

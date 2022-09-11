@@ -275,6 +275,23 @@ const FilterNavigator = ({
               maxItemsCategory={maxItemsCategory}
               categoryFiltersMode={categoryFiltersMode}
             />
+            <ExtensionPoint id="custom-filters" 
+              tree={tree}
+              filters={filters}
+              priceRange={priceRange}
+              preventRouteChange={preventRouteChange}
+              initiallyCollapsed={initiallyCollapsed}
+              navigateToFacet={navigateToFacet}
+              truncatedFacetsFetched={truncatedFacetsFetched}
+              setTruncatedFacetsFetched={setTruncatedFacetsFetched}
+              truncateFilters={truncateFilters}
+              openFiltersMode={openFiltersMode}
+              closeOnOutsideClick={closeOnOutsideClick}
+              appliedFiltersOverview={appliedFiltersOverview}
+              showClearByFilter={showClearByFilter}
+              priceRangeLayout={priceRangeLayout}
+              scrollToTop={scrollToTop}
+            />
             <AvailableFilters
               filters={filters}
               priceRange={priceRange}
